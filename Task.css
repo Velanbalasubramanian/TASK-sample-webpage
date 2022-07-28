@@ -1,0 +1,72 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:whitesmoke;
+    background-size:cover;
+    background-position: center;
+    font-family:  sans-serif;
+
+ 
+
+}
+.menu-bar{  
+    background-color: green;
+    text-align: center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style: none;
+    color: #fff;
+    border: none;
+}
+.menu-bar ul li{
+    width: 130px;
+    margin: 20px;
+    padding: 15px;
+    justify-content: center;
+    font-size: large;
+    
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color:white;
+    
+}   
+.menu-bar ul li:hover{
+    background-color:mediumseagreen;
+    
+}
+.Background{
+    text-decoration: none; 
+    color: white;
+    background-image: url(/Boo.jpeg);
+    background-position: left top;
+    margin-bottom: left top;
+    background-attachment: fixed; /* fixed nah oru background apdiyae irukum page move pannalum or Scroll nah antha img mattum aduthu move agittu varum */
+   background-repeat: no-repeat;  
+   background-image: url(/cccccc.jpg);
+   background-size: 100%;
+   /* background: firebrick; */
+}
+
+#regis{
+    margin-right: 200px;
+    
+}
+
+#sample{
+    text-align: justify;
+    
+}
+.Margin{
+    border: 2px solid red;
+    margin-top: 100px;
+
+     margin-left: 400px;
+    margin-right:400px;
+}
